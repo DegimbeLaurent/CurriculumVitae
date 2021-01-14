@@ -1,0 +1,107 @@
+html{
+	font-family: "arial", verdana, sans-serif;
+	font-size:.625em;
+	line-height:1.5;
+	letter-spacing:.15rem;
+	margin:0;
+	padding:0;
+}
+body{
+    margin:0;
+	padding:0;
+}
+
+header{
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(112, 146, 190);
+    padding-left: 2%;
+    padding-top: 2%;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+header p{
+    font-size: 2em;
+}
+header ul{
+    font-size: 1.5em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 40px 55% 40px 40% 40px;
+    grid-template-rows: 40px 25% 40px 30% 40px 30% 40px;
+}
+
+main p{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+main ul {
+    font-size: 1.5em;
+}
+
+#resume{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#parcours{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#stage{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#skills{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#skills div{
+    display: flex;
+}
+
+#skills p{
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    width: 100px;
+}
+
+
+#skills div span{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: solid rgb(112, 146, 190) 1px;
+}
+
+.blue{
+    background-color:rgb(112, 146, 190);
+}
+
